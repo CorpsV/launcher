@@ -1,0 +1,20 @@
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\bin\Debug\Corps.exe
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\bin\Debug\Corps.pdb
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\bin\Debug\Corps.xml
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\obj\x86\Debug\Corps.Form1.resources
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\obj\x86\Debug\Corps.Resources.resources
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\obj\x86\Debug\Corps.vbproj.GenerateResource.Cache
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\obj\x86\Debug\Corps.exe
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\obj\x86\Debug\Corps.xml
+C:\Users\zOpen\AppData\Local\Temporary Projects\Corps\obj\x86\Debug\Corps.pdb
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.exe
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.xml
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.pdb
+D:\Corps\Corps\Corps\bin\Debug\Corps.exe
+D:\Corps\Corps\Corps\bin\Debug\Corps.pdb
+D:\Corps\Corps\Corps\bin\Debug\Corps.xml
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.Form1.resources
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.Resources.resources
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.vbproj.GenerateResource.Cache
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.form2.resources
+D:\Corps\Corps\Corps\obj\x86\Debug\Corps.Form3.resources
