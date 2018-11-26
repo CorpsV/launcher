@@ -26,7 +26,7 @@ Public Class Form1
                     MsgBox("Welcome member", MsgBoxStyle.Information, "System")
                     Dim menssagem As String = "You have " & dias & " days of access "
                     MsgBox(menssagem)
-                    Form4.Show()
+                    Form2.Show()
                     Me.Hide()
 
                 Else
