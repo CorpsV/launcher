@@ -1,7 +1,7 @@
 ﻿Imports System.Net
 
 Public Class Form1
-    Private Sub entrar()
+    Private Sub Entrar()
 
         Dim senha As String = TextBox1.Text
         Dim web As New Net.WebClient
@@ -11,7 +11,7 @@ Public Class Form1
             versao = web.DownloadString(site)
             If versao <> "" Then
 
-                System.Threading.Thread.Sleep("2000")
+                System.Threading.Thread.Sleep("1500")
 
 
 
@@ -26,7 +26,7 @@ Public Class Form1
                     MsgBox("Welcome member", MsgBoxStyle.Information, "System")
                     Dim menssagem As String = "You have " & dias & " days of access "
                     MsgBox(menssagem)
-                    form2.Show()
+                    Form2.Show()
                     Me.Hide()
 
                 Else
@@ -52,7 +52,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        entrar()
+        Entrar()
 
 
     End Sub
@@ -74,20 +74,17 @@ Public Class Form1
 
     Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
         If Asc(e.KeyChar) = Keys.Enter Then
-            entrar()
+            Entrar()
 
         End If
 
     End Sub
 
     Private Sub Button1_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        entrar()
+        Entrar()
 
     End Sub
 
-    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
-
-    End Sub
 End Class
 
 

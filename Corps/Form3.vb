@@ -5,9 +5,6 @@
 
     End Sub
 
-    Private Sub Form3_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
-    End Sub
     Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
 
         Me.Label2.Text = "Version: " + Application.ProductVersion
@@ -103,16 +100,6 @@
         processStartInfo.UseShellExecute = True
         process = System.Diagnostics.Process.Start(processStartInfo)
         Me.WindowState = FormWindowState.Minimized
-
-    End Sub
-
-    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
-
-
-
-    End Sub
-
-    Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
 
     End Sub
 End Class

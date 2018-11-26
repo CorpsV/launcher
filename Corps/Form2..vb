@@ -1,12 +1,13 @@
 ﻿Imports System.Net
-Public Class form2
 
-    Private Sub form2_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs)
+Public Class Form2
+
+    Private Sub Form2_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs)
         Form1.Close()
 
     End Sub
 
-    Private Sub form2_FormClosed1(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
+    Private Sub Form2_FormClosed1(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
         Form1.Close()
 
     End Sub
@@ -23,7 +24,7 @@ Public Class form2
         Dim versao As String = web.DownloadString(site)
         Timer1.Stop()
         If versao < Application.ProductVersion = True Then
-            MsgBox("The server is Offline", MsgBoxStyle.Critical, "System")
+            MsgBox("The server is offline", MsgBoxStyle.Critical, "System")
             Form1.Show()
             Me.Hide()
 
@@ -38,7 +39,8 @@ Public Class form2
         Else
             If versao = Application.ProductVersion = True Then
                 MsgBox("Correct version", MsgBoxStyle.OkOnly, "System")
-                Form3.Show()
+                Form4.Show()
+                MsgBox("Inject your bypass in training and do not close")
                 Me.Hide()
             End If
         End If
@@ -53,7 +55,9 @@ Public Class form2
     End Sub
 
     Private Sub Label3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label3.Click
+
         MsgBox("The fucking Owner", MsgBoxStyle.OkOnly, "System")
+
     End Sub
 End Class
 
